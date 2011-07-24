@@ -1,0 +1,28 @@
+pyjab v0.1
+(C) 2011 Jérémie Roquet
+arkanosis@gmail.com
+
+http://github.com/Arkanosis/pyjab
+
+pyjab is a tool to control purple-powered IM clients (such as pidgin) from other programs using dbus.
+
+Supported clients are:
+ - zsh, bash or any other shell;
+ - emacs.
+
+It comes with autocompletion for zsh.
+
+To use pyjab, you need to have on your system:
+ - a recent release of Python
+ - a recent release of dbus-python
+
+You can define aliases for people you want to send messages to, by creating a file named “.pyjabrc” in your $HOME directory.
+The format is as follow:
+
+----8<-----
+# This is a comment
+alias=realname
+alias=realname
+# This is a comment
+alias=realname
+----8<-----
