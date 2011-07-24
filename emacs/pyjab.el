@@ -31,4 +31,4 @@
 
 (provide 'pyjab)
 
-;;; ansi-color.el ends here
+;;; pyjab.el ends here
