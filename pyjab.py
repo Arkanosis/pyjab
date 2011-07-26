@@ -23,7 +23,7 @@ if __name__ == '__main__':
                     alias, username = line.strip().replace(' ', '').split('=')
                     if username not in aliases:
                         aliases[username] = [username]
-                        aliases[username].append(alias)
+                    aliases[username].append(alias)
 
     bus = dbus.SessionBus()
 
