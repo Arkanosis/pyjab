@@ -55,7 +55,7 @@ if __name__ == '__main__':
             userAliases = aliases.get(username, [username])
             for recipient in recipients:
                 if recipient in userAliases:
-                    print 'sending "%s" to %s' % (' '.join(sys.argv[2:]), username)
+                    print 'sending "%s" to %s' % (' '.join(sys.argv[2:]), username.encode('utf-8'))
                     client.PurpleConvImSend(
                         client.PurpleConvIm(conversation),
                         ' '.join(sys.argv[2:])
