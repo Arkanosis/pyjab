@@ -2,7 +2,7 @@
 
 # pyjab completion file for zsh
 # (C) 2011 Jérémie Roquet
-# arkanosis@gmail.com
+# jroquet@arkanosis.net
 
 local usernames oldifs
 

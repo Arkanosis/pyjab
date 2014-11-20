@@ -3,7 +3,7 @@
 
 # pyjab v0.1
 # (C) 2011 Jérémie Roquet
-# arkanosis@gmail.com
+# jroquet@arkanosis.net
 
 import os.path
 import sys
